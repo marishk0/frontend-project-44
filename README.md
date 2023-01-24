@@ -3,4 +3,4 @@
 <a href="https://codeclimate.com/github/marishk0/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/0c8d5ed2039fe457ace6/maintainability" /></a>
 
 Even-or-Odd 
-<script id="asciicast-uhI29P00vEQhxKdq13ft23wa9" src="https://asciinema.org/a/uhI29P00vEQhxKdq13ft23wa9.js" async></script>
+<a href="https://asciinema.org/a/uhI29P00vEQhxKdq13ft23wa9" target="_blank"><img src="https://asciinema.org/a/uhI29P00vEQhxKdq13ft23wa9.svg" /></a>
