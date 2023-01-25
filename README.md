@@ -13,6 +13,17 @@ This is a set of five console games based on popular mobile brain training apps.
 * [Finding the Greatest Common Divisor.](#finding-the-greatest-common-divisor)
 * [Definition of a prime number.](#definition-of-a-prime-number)
 
+### System requirements and Installation guide:
+The game can only be run on a Unix-like operating system. for example: Ubuntu 20.04.1 or higher
+Node.js v13 or higher
+
+### To install "Brain-games", you need:
+* git clone https://github.com/marishk0/frontend-project-44
+* cd frontend-project-44
+* make install
+* npm ci
+* Choose your game.
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/marishk0/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/marishk0/frontend-project-44/actions)
 <a href="https://codeclimate.com/github/marishk0/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/0c8d5ed2039fe457ace6/maintainability" /></a>
