@@ -17,7 +17,7 @@ const startRound = () => {
     const difference = generateRandomNumber(1, 5);
     
     const progression = generateProgression(firstNum, count, difference);
-    const hiddenIndex = generateRandomNumber(0, count);
+    const hiddenIndex = generateRandomNumber(1, count);
     
     const correctAnswer = String(progression[hiddenIndex - 1]);
     progression[hiddenIndex - 1] = '..';
