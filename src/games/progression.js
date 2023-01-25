@@ -4,7 +4,7 @@ import startGame from '../index.js';
 const task = 'What number is missing in the progression?';
 
 const generateProgression = (firstNum = 1, count = 5, difference = 1) => {
-    let arrProgression = [];
+    const arrProgression = [];
     for (let i = 0; i < count; i += 1) {
         arrProgression.push(firstNum + difference * i);
     }
@@ -12,7 +12,7 @@ const generateProgression = (firstNum = 1, count = 5, difference = 1) => {
 };
 
 const startRound = () => {
-    const firstNum = generateRandomNumber(0, 5);
+    const firstNum = generateRandomNumber(1, 5);
     const count = generateRandomNumber(5, 10);
     const difference = generateRandomNumber(1, 5);
 
