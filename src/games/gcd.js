@@ -21,8 +21,8 @@ const findGCD = (a, b) => {
 };
 
 const startRound = () => {
-    const a = generateRandomNumber(0, 50);
-    const b = generateRandomNumber(0, 50);
+    const a = generateRandomNumber(1, 50);
+    const b = generateRandomNumber(1, 50);
 
     const question = `${a} ${b}`;
     const correctAnswer = findGCD(a, b);
