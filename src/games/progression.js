@@ -15,11 +15,11 @@ const startRound = () => {
     const firstNum = generateRandomNumber(1, 5);
     const count = generateRandomNumber(5, 10);
     const difference = generateRandomNumber(1, 5);
-
-    const hiddenIndex = generateRandomNumber(0, count);
+    
     const progression = generateProgression(firstNum, count, difference);
 
-    const correctAnswer = progression[hiddenIndex - 1];
+    const correctAnswer = String(progression[hiddenIndex - 1]);
+    const hiddenIndex = generateRandomNumber(0, count);
     progression[hiddenIndex - 1] = '..';
     
     const question = String(progression.join(' '));
