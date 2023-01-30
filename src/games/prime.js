@@ -13,7 +13,7 @@ const isPrime = (num) => {
   return dividers.length === 2;
 };
 
-const startRound = () => {
+const getAnswerAndQuestion = () => {
   const num = generateRandomNumber();
   const correctAnswer = isPrime(num) ? 'yes' : 'no';
 
@@ -21,7 +21,7 @@ const startRound = () => {
 };
 
 const brainPrime = () => {
-  startGame(startRound, task);
+  startGame(getAnswerAndQuestion, task);
 };
 
 export default brainPrime;

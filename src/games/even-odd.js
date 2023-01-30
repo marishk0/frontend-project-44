@@ -5,7 +5,7 @@ const task = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const isEven = (num) => num % 2 === 0;
 
-const startRound = () => {
+const getAnswerAndQuestion = () => {
   const num = generateRandomNumber();
   const correctAnswer = isEven(num) ? 'yes' : 'no';
 
@@ -13,7 +13,7 @@ const startRound = () => {
 };
 
 const brainEven = () => {
-  startGame(startRound, task);
+  startGame(getAnswerAndQuestion, task);
 };
 
 export default brainEven;

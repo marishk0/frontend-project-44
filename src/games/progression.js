@@ -11,7 +11,7 @@ const generateProgression = (firstNum = 1, count = 5, difference = 1) => {
   return arrProgression;
 };
 
-const startRound = () => {
+const getAnswerAndQuestion = () => {
   const firstNum = generateRandomNumber(1, 5);
   const count = generateRandomNumber(5, 10);
   const difference = generateRandomNumber(1, 5);
@@ -27,7 +27,7 @@ const startRound = () => {
 };
 
 const brainProgression = () => {
-  startGame(startRound, task);
+  startGame(getAnswerAndQuestion, task);
 };
 
 export default brainProgression;

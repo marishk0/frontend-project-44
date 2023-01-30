@@ -3,7 +3,7 @@ import startGame from '../index.js';
 
 const task = 'What is the result of the expression?';
 
-const whatOperation = (a, b, symbol) => {
+const calculate = (a, b, symbol) => {
   switch (symbol) {
     case '+':
       return a + b;
@@ -16,19 +16,19 @@ const whatOperation = (a, b, symbol) => {
   }
 };
 
-const startRound = () => {
+const getAnswerAndQuestion = () => {
   const a = generateRandomNumber(0, 10);
   const b = generateRandomNumber(0, 10);
   const symbolsArr = ['+', '-', '*'];
   const symbol = symbolsArr[generateRandomNumber(0, symbolsArr.length - 1)];
 
   const question = `${a} ${symbol} ${b}`;
-  const correctAnswer = whatOperation(a, b, symbol).toString();
+  const correctAnswer = calculate(a, b, symbol).toString();
   return [question, correctAnswer];
 };
 
 const brainCalc = () => {
-  startGame(startRound, task);
+  startGame(getAnswerAndQuestion, task);
 };
 
 export default brainCalc;

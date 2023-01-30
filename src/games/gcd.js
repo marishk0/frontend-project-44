@@ -20,7 +20,7 @@ const findGCD = (a, b) => {
   return String(gcd);
 };
 
-const startRound = () => {
+const getAnswerAndQuestion = () => {
   const a = generateRandomNumber(1, 50);
   const b = generateRandomNumber(1, 50);
 
@@ -30,7 +30,7 @@ const startRound = () => {
 };
 
 const brainGCD = () => {
-  startGame(startRound, task);
+  startGame(getAnswerAndQuestion, task);
 };
 
 export default brainGCD;
