@@ -1,7 +1,7 @@
 import generateRandomNumber from '../generateRandomNumber.js';
 import startGame from '../index.js';
 
-const task = 'Answer "yes" if the number is even, otherwise answer "no".';
+const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const isEven = (num) => num % 2 === 0;
 
@@ -13,7 +13,7 @@ const getAnswerAndQuestion = () => {
 };
 
 const brainEven = () => {
-  startGame(getAnswerAndQuestion, task);
+  startGame(getAnswerAndQuestion, description);
 };
 
 export default brainEven;

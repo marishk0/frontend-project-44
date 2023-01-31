@@ -1,7 +1,8 @@
 import generateRandomNumber from '../generateRandomNumber.js';
 import startGame from '../index.js';
 
-const task = 'What is the result of the expression?';
+const description = 'What is the result of the expression?';
+const symbolsArr = ['+', '-', '*'];
 
 const calculate = (a, b, symbol) => {
   switch (symbol) {
@@ -19,7 +20,6 @@ const calculate = (a, b, symbol) => {
 const getAnswerAndQuestion = () => {
   const a = generateRandomNumber(0, 10);
   const b = generateRandomNumber(0, 10);
-  const symbolsArr = ['+', '-', '*'];
   const symbol = symbolsArr[generateRandomNumber(0, symbolsArr.length - 1)];
 
   const question = `${a} ${symbol} ${b}`;
@@ -28,7 +28,7 @@ const getAnswerAndQuestion = () => {
 };
 
 const brainCalc = () => {
-  startGame(getAnswerAndQuestion, task);
+  startGame(getAnswerAndQuestion, description);
 };
 
 export default brainCalc;

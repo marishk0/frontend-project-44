@@ -1,7 +1,7 @@
 import generateRandomNumber from '../generateRandomNumber.js';
 import startGame from '../index.js';
 
-const task = 'What number is missing in the progression?';
+const description = 'What number is missing in the progression?';
 
 const generateProgression = (firstNum = 1, count = 5, difference = 1) => {
   const arrProgression = [];
@@ -27,7 +27,7 @@ const getAnswerAndQuestion = () => {
 };
 
 const brainProgression = () => {
-  startGame(getAnswerAndQuestion, task);
+  startGame(getAnswerAndQuestion, description);
 };
 
 export default brainProgression;
