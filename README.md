@@ -2,7 +2,7 @@
 ### Greetings
 Enter command
 ```brain-games```
-<a href="https://asciinema.org/a/m3cUBMlH6QpzV797bwBmuIRs0" target="_blank"><img src="https://asciinema.org/a/m3cUBMlH6QpzV797bwBmuIRs0.svg" /></a>
+<a href="https://asciinema.org/a/H3Lr1F0n9Kxbalouoyjtiubim" target="_blank"><img src="https://asciinema.org/a/H3Lr1F0n9Kxbalouoyjtiubim.svg" /></a>
 
 This is a set of five console games based on popular mobile brain training apps. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered to be completed. Wrong answers end the game and offer to play it again.
 
@@ -33,7 +33,7 @@ The user is shown a random mathematical expression that needs to be calculated a
 
 You can call the game with the command
 ```brain-calc```
-<a href="https://asciinema.org/a/C0Zpc0IAfGhggktyBjTFWtUHP" target="_blank"><img src="https://asciinema.org/a/C0Zpc0IAfGhggktyBjTFWtUHP.svg" /></a>
+<a href="https://asciinema.org/a/DyNjhUbm3X8V0oYXTB3bK05aO" target="_blank"><img src="https://asciinema.org/a/DyNjhUbm3X8V0oYXTB3bK05aO.svg" /></a>
 
 ## Progression
 We show the player a series of numbers that form an arithmetic progression, replacing any of the numbers with two dots. The player must determine this number.
@@ -44,21 +44,21 @@ The position of the hidden element changes each time (selected randomly)
 
 You can call the game with the command
 ```brain-progression```
-<a href="https://asciinema.org/a/dxJ8F4EDsHMBGRmIOjk2fZzXG" target="_blank"><img src="https://asciinema.org/a/dxJ8F4EDsHMBGRmIOjk2fZzXG.svg" /></a>
+<a href="https://asciinema.org/a/zjRANKByq8YraMSLKLx2Qvwk7" target="_blank"><img src="https://asciinema.org/a/zjRANKByq8YraMSLKLx2Qvwk7.svg" /></a>
 
 ## Definition of an even number
 The user is shown a random number. And he needs to answer 'yes' if the number is even, or 'no' if it is odd
 
 You can call the game with the command
 ```brain-even```
-<a href="https://asciinema.org/a/V0GQW2HOlUzQSctoiD0sBo25u" target="_blank"><img src="https://asciinema.org/a/V0GQW2HOlUzQSctoiD0sBo25u.svg" /></a>
+<a href="https://asciinema.org/a/4Txndtu7iCfiFN5TW1PwM1mst" target="_blank"><img src="https://asciinema.org/a/4Txndtu7iCfiFN5TW1PwM1mst.svg" /></a>
 
 ## Finding the Greatest Common Divisor
 The user is shown two random numbers. The user must calculate and enter the greatest common divisor of these numbers.
 
 You can call the game with the command
 ```brain-gcd```
-<a href="https://asciinema.org/a/4Awur6kLtsYMnwUXvYGvqAJ8c" target="_blank"><img src="https://asciinema.org/a/4Awur6kLtsYMnwUXvYGvqAJ8c.svg" /></a>
+<a href="https://asciinema.org/a/AQMFRWa3wmMLG216xbh2xENuO" target="_blank"><img src="https://asciinema.org/a/AQMFRWa3wmMLG216xbh2xENuO.svg" /></a>
 
 ## Definition of a prime number
 The user is shown a random number. And the user needs to answer 'yes' if the number is prime, or 'no' if it is not.
@@ -66,4 +66,4 @@ Information about [prime numbers](https://en.wikipedia.org/wiki/List_of_prime_nu
 
 You can call the game with the command
 ```brain-prime```
-<a href="https://asciinema.org/a/DIyghPcFFL7oVNPr9TzbDUSNi" target="_blank"><img src="https://asciinema.org/a/DIyghPcFFL7oVNPr9TzbDUSNi.svg" /></a>
+<a href="https://asciinema.org/a/636BgUgLr5iTv8SQeOHoarldn" target="_blank"><img src="https://asciinema.org/a/636BgUgLr5iTv8SQeOHoarldn.svg" /></a>
